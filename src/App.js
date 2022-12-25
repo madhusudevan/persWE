@@ -1,30 +1,28 @@
 import './App.css';
  import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Pages/Home';
-import OffsetPrinting from './Components/OffsetPrinting/OffsetPrinting';
-import{BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-import { useContext, useEffect } from 'react';
-import { MyContext } from './Components/Cards'
-import WeddingCard from './Components/Weddingcard/WeddingCard';
-import ScreenPrinting from './Components/ScreenPrinting/ScreenPrinting'
-import Photostate from './Components/Photostat/Photostat'
-import Binding from './Components/Binding/Binding';
-
+import {BrowserRouter as Router, Routes , Route} from 'react-router-dom'
+import Home from './Pages/Home'
+import Timeline from './Pages/Timeline';
+import About from './Pages/About'
+import Letter from './Pages/Letter'
+import Works from './Pages/Works'
+import Header from './Components/Header'
+import Footer from './Components/Footer/Footer'
 function App() {
-  
- 
- 
-  return (
+   return (
     <div className='container-fluid'>
+      
      <Router>
+     <Header/>
       <Routes>
-        <Route exact path = '/' element={<Home />}/>
-        <Route path ="/OffsetPrinting" element={<OffsetPrinting/>}/>
-        <Route path ="/wedding" element={<WeddingCard/>}/>
-        <Route path ="/screen" element={<ScreenPrinting/>}/>
-         <Route path ="/photo" element={<Photostate/>}/>
-         <Route path ="/binding" element={<Binding/>}/>
+        <Route exact path ='/' element={<Home/>}/>
+        <Route path ='/home' element={<Home/>}/>
+        <Route path ='/timeline' element={<Timeline/>}/>
+        <Route path ='/about' element={<About props="about" />}/>
+        <Route path ='/letter' element={<Letter/>}/>
+        <Route path ='/works' element={<Works/>}/>
       </Routes>
+      <Footer/>
      </Router>
     </div>
   );

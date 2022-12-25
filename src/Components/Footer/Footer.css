@@ -1,41 +1,7 @@
-#footer{
-    background: linear-gradient(to bottom, #33ccff 0%, #0099ff 100%);
-    color: aliceblue;
-    
-    height: 80vh;
-
-}
-#colum1{
-padding-top: 50px;
-padding-left:20px;
-height: 80vh;
-display: flex;
- justify-content: flex-start;
-/*align-items: center; */
-flex-direction: column;
-margin-left: 0px;
-}
-#colum2{
-    padding-top: 50px;
-    padding-left:40px;
-    height: 80vh;
-    display: flex;
-     justify-content: flex-start;
-    /*align-items: center; */
-    flex-direction: column;
-    margin-left: 0px;
-    }
-.vertical{
-    height: 60%;
-    border-right: 1px solid white;
-    position: absolute;
-    right: 33.33%;
-    margin-top: 7%;
-}
-.vertical-1{
-    height: 60%;
-    border-right: 1px solid white;
-    position: absolute;
-    right: 66.66%;
-    margin-top: 7%;
-}
+.footer-nav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }

@@ -1,0 +1,18 @@
+.profile{
+height: 160px;
+width: 160px;
+
+
+}
+.rounded-full{
+    border-radius: 50%;
+}
+img {
+    /* border-style: solid; */
+    display: block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+

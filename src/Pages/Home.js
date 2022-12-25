@@ -1,29 +1,15 @@
 import React from 'react'
-import CollapsibleExample from '../Components/CollapsibleExample'
-import Slider from '../Components/Slider'
-import Section from '../Components/Section/Section'
-import Picture from '../Components/Picture/Picture'
-import Products from '../Components/Product/Products'
-import Contents from '../Components/Contents/Contents'
-import View from '../Components/View/View'
-import Footer from '../Components/Footer/Footer'
-import OffsetPrinting from '../Components/OffsetPrinting/OffsetPrinting'
+import Header from '../Components/Header'
+import Profile from '../Components/Profile/Profile'
+import Newsletter from '../Components/Newsletter/Newsletter'
+import Time from '../Components/Time/Time'
 
-function Home(props) {
-  console.log("hOme",props)
+function Home() {
   return (
-    <div>
-        <CollapsibleExample/>
-
-     <Slider/> 
-      <Section/>
-     <Picture/>
-     <Products />
-      <Contents/>
-     <View/>
-     <Footer/> 
-     
-     
+    <div className='container-flluid'>
+         <Profile/>
+          <Time/>
+          <Newsletter/>
     </div>
   )
 }
