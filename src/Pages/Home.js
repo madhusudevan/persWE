@@ -9,7 +9,7 @@ function Home() {
     <div className='container-flluid'>
          <Profile/>
           <Time/>
-          <Newsletter/>
+          {/* <Newsletter/> */}
     </div>
   )
 }

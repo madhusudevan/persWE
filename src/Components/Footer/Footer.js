@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './Footer.css'
 function Footer() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid p-3'>
        
        <Navbar bg="light" variant="light" className='footer-nav'>
         <Container>

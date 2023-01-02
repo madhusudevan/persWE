@@ -12,7 +12,7 @@ function Header() {
     <div className="container-fluid">
 
     
-
+<div className="">
     <Navbar  expand="lg" className='header'>
     <Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -21,13 +21,14 @@ function Header() {
           <Link to="/home"className='nav'>Home</Link>
           <Link to="/timeline"className='nav'>Timeline</Link>
           <Link to="/works"className='nav' >Works</Link>
-          <Link to="/blogs" className='nav' >Blogs</Link>
-          <Link to="/letter"className='nav' >Letter</Link>
+          {/* <Link to="/blogs" className='nav' >Blogs</Link> */}
+          {/* <Link to="/letter"className='nav' >Letter</Link> */}
           <Link to="/about" className='nav' >About</Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
   </Navbar>
+  </div>
   </div>
   )
 }

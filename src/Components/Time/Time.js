@@ -3,7 +3,7 @@ import React from 'react'
 function Time() {
   return (
     <div className='container-fluid p-5'>
-        <h1>Activities</h1>
+        <h1>Events</h1>
     <ul>
         <li>october 2022 - I'm starting to developing projects</li>
         <li>August 2022 - finished school</li>

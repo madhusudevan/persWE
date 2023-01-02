@@ -8,6 +8,12 @@ import Letter from './Pages/Letter'
 import Works from './Pages/Works'
 import Header from './Components/Header'
 import Footer from './Components/Footer/Footer'
+
+
+
+
+
+
 function App() {
    return (
     <div className='container-fluid'>
@@ -18,8 +24,8 @@ function App() {
         <Route exact path ='/' element={<Home/>}/>
         <Route path ='/home' element={<Home/>}/>
         <Route path ='/timeline' element={<Timeline/>}/>
-        <Route path ='/about' element={<About props="about" />}/>
-        <Route path ='/letter' element={<Letter/>}/>
+        <Route path ='/about' element={<About/>}/>
+        {/* <Route path ='/letter' element={<Letter/>}/> */}
         <Route path ='/works' element={<Works/>}/>
       </Routes>
       <Footer/>

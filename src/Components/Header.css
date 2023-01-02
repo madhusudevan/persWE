@@ -23,12 +23,29 @@
   }
 
 
-.nav:hover {background-color: #3e8e41}
+.nav:hover {
+  background-color: #3e8e41;
+  text-decoration: none;
+}
 
 .nav:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+  color: aqua;
+  
+}
+.me-auto:active{
+ 
+}
+@media (max-width:414px){
+.me-auto .nav{
+  padding: 1px;
+  background-color: none;
+  border-radius: 0px;
+  margin-bottom: 2px;
+  box-shadow: none;
+}
 }
 /* .nav:active{
     background-color:cornflowerblue;
