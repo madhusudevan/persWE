@@ -58,7 +58,7 @@ try{
          </p>
 
          <h1>Contact</h1>
-    <form >
+    <form className='about'>
   
   <div className="form-group row">
     {/* <label for="inputPassword" className="col-sm-2 col-form-label">Name</label> */}
